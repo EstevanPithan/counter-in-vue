@@ -49,7 +49,7 @@ npm run dev
 yarn dev
 ```
 
-This will start a development server, and you can access the counter application in your browser at `http://localhost:8080`.
+This will start a development server, and you can access the counter application in your browser at `http://localhost:5173`.
 
 ## Features
 
