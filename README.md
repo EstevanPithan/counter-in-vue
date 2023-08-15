@@ -1,18 +1,67 @@
-# Vue 3 + TypeScript + Vite
+# Counter-in-Vue
 
-This template should help get you started developing with Vue 3 and TypeScript in Vite. The template uses Vue 3 `<script setup>` SFCs, check out the [script setup docs](https://v3.vuejs.org/api/sfc-script-setup.html#sfc-script-setup) to learn more.
+![Vue Version](https://img.shields.io/badge/Vue-3.x-brightgreen.svg)
+![TypeScript](https://img.shields.io/badge/TypeScript-4.x-blue.svg)
+![Composition API](https://img.shields.io/badge/Composition%20API-Enabled-yellow.svg)
 
-## Recommended IDE Setup
+**Counter-in-Vue** is a simple project built using Vue 3, TypeScript, and the Composition API. It demonstrates a basic counter application where users can increment, decrement.
 
-- [VS Code](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur) + [TypeScript Vue Plugin (Volar)](https://marketplace.visualstudio.com/items?itemName=Vue.vscode-typescript-vue-plugin).
+## Table of Contents
 
-## Type Support For `.vue` Imports in TS
+- [Installation](#installation)
+- [Usage](#usage)
+- [Features](#features)
+- [Technologies](#technologies)
+- [Contributing](#contributing)
+- [License](#license)
 
-TypeScript cannot handle type information for `.vue` imports by default, so we replace the `tsc` CLI with `vue-tsc` for type checking. In editors, we need [TypeScript Vue Plugin (Volar)](https://marketplace.visualstudio.com/items?itemName=Vue.vscode-typescript-vue-plugin) to make the TypeScript language service aware of `.vue` types.
+## Installation
 
-If the standalone TypeScript plugin doesn't feel fast enough to you, Volar has also implemented a [Take Over Mode](https://github.com/johnsoncodehk/volar/discussions/471#discussioncomment-1361669) that is more performant. You can enable it by the following steps:
+To get started with **Counter-in-Vue**, follow these steps:
 
-1. Disable the built-in TypeScript Extension
-   1. Run `Extensions: Show Built-in Extensions` from VSCode's command palette
-   2. Find `TypeScript and JavaScript Language Features`, right click and select `Disable (Workspace)`
-2. Reload the VSCode window by running `Developer: Reload Window` from the command palette.
+1. Clone the repository:
+
+   ```bash
+   git clone https://github.com/EstevanPithan/counter-in-vue.git
+   ```
+
+2. Navigate to the project directory:
+
+   ```bash
+   cd counter-in-vue
+   ```
+
+3. Install the dependencies using your preferred package manager:
+
+   ```bash
+   npm install
+   # or
+   yarn install
+   ```
+
+## Usage
+
+Once you have installed the dependencies, you can run the project using the following commands:
+
+```bash
+npm run dev
+# or
+yarn dev
+```
+
+This will start a development server, and you can access the counter application in your browser at `http://localhost:8080`.
+
+## Features
+
+- Increment the counter value by one.
+- Decrement the counter value by one.
+- User-friendly interface built with Vue 3 components.
+- Utilizes the Composition API for improved code organization and reusability.
+- Written in TypeScript for type-safe development.
+
+## Technologies
+
+- [Vue.js](https://vuejs.org/) - A progressive JavaScript framework.
+- [TypeScript](https://www.typescriptlang.org/) - A typed superset of JavaScript.
+- [Composition API](https://composition-api.vuejs.org/) - Vue 3's Composition API for organizing logic.
+- [Vue CLI](https://cli.vuejs.org/) - Standard tooling for Vue development.
