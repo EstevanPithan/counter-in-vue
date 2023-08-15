@@ -12,9 +12,7 @@
 - [Usage](#usage)
 - [Features](#features)
 - [Technologies](#technologies)
-- [Contributing](#contributing)
-- [License](#license)
-
+  
 ## Installation
 
 To get started with **Counter-in-Vue**, follow these steps:
@@ -64,4 +62,3 @@ This will start a development server, and you can access the counter application
 - [Vue.js](https://vuejs.org/) - A progressive JavaScript framework.
 - [TypeScript](https://www.typescriptlang.org/) - A typed superset of JavaScript.
 - [Composition API](https://composition-api.vuejs.org/) - Vue 3's Composition API for organizing logic.
-- [Vue CLI](https://cli.vuejs.org/) - Standard tooling for Vue development.
